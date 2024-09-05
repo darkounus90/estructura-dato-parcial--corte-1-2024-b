@@ -9,7 +9,7 @@ public class App {
    
         System.out.print("Ingrese el nombre del cliente: ");
         String nombreCliente = scanner.next();
-        if(nombreCliente.isEmpty()){
+        if(!nombreCliente.isBlank()){
 
     
         System.out.print("Ingrese el nombre del producto: ");
