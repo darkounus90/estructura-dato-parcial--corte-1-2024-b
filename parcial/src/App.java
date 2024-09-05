@@ -14,7 +14,7 @@ public class App {
     
         System.out.print("Ingrese el nombre del producto: ");
         String nombreProducto = scanner.next();
-        if(nombreProducto.isEmpty()){
+        if(!nombreProducto.isEmpty()){
 
         System.out.println("Ingrese el valor unitario del producto");
         double valorUnitario = scanner.nextDouble();
